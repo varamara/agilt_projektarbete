@@ -14,6 +14,6 @@ build:
 deploy:
   stage: deploy
   only:
-    - master  # Deploy bara från master-grenen, justera efter behov
+    - master  
   script:
     - echo "Deploying to production..."
