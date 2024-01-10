@@ -17,4 +17,3 @@ deploy:
     - master  # Deploy bara från master-grenen, justera efter behov
   script:
     - echo "Deploying to production..."
-    # Här kan du lägga till kommandon för att kopiera filer till din server eller använda tjänster som Firebase, AWS, etc.
