@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>hej hej</h1>
+      <h1>hej</h1>
     </>
   )
 }
