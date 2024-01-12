@@ -1,5 +1,10 @@
 import React from "react";
 import "./navbar.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMagnifyingGlass,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar: React.FC = () => {
   return (
@@ -10,13 +15,18 @@ const Navbar: React.FC = () => {
         <a href="#">Storleksguide</a>
         <a href="#">Kontakt</a>
       </div>
-      <div className="logo">vfv</div>
+      <div className="logo">Konini</div>
       <div className="search-cart">
-        <div className="search-bar">
-          <input type="text" className="search" placeholder="Sök..." />
-          <button className="search-button">O</button>
-        </div>
-        <button className="cart">crt</button>
+        <form action="/sok" method="get">
+          <input type="text" name="query" placeholder="Sök här..." />
+          <button type="submit">
+            <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
+          </button>
+        </form>
+
+        <button className="cart">
+          <FontAwesomeIcon icon={faCartShopping} className="cart-icon"/>
+        </button>
       </div>
     </section>
   );

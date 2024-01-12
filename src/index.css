@@ -6,18 +6,20 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   margin: 0;
   padding: 0;
+  
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'lato', sans-serif;
   
   --color-1: #000000;
-  --color-2: #cfcfcf;
-  --color-3: #808080;
-  --color-4: #8E76CF;
-  --color-5: #beadec;
+  --color-2: #ffffff;
+  --color-3: #cfcfcf;
+  --color-4: #808080;
+  --color-5: #8E76CF;
+  --color-6: #beadec;
 
-  --font-1: font-family: 'Lato', sans-serif;
-  --font-2: font-family: 'Lobster', sans-serif;
+  --font-1: 'Lato', sans-serif;
+  --font-2: 'Lobster', sans-serif;
 }
