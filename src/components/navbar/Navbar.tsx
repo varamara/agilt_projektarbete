@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <a href="#">Storleksguide</a>
         <a href="#">Kontakt</a>
       </div>
-      <div className="logo">vfv</div>
+      
       <div className="search-cart">
         <div className="search-bar">
           <input type="text" className="search" placeholder="Sök..." />

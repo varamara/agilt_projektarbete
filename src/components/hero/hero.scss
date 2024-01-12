@@ -1,0 +1,30 @@
+.hero {
+    background-image: url(/src/assets/images/nyhero.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: -100px;
+    background-size: cover;
+    color: var(--color-2);
+    
+    
+    h1 {
+    
+        font-size: 4em;
+        text-align: center;
+        width: 50px;
+        font-family: var(--font-2);
+        
+    }
+
+    h3 {
+        padding-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    button {
+        margin: 20px;
+    }
+  }
+
