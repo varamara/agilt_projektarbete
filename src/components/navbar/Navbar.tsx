@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.scss";
 
 const Navbar: React.FC = () => {
   return (
@@ -9,9 +10,14 @@ const Navbar: React.FC = () => {
         <a href="#">Storleksguide</a>
         <a href="#">Kontakt</a>
       </div>
-      <div className="logo"></div>
-      <div className="search-bar"></div>
-      <button className="cart"></button>
+      <div className="logo">vfv</div>
+      <div className="search-cart">
+        <div className="search-bar">
+          <input type="text" className="search" placeholder="Sök..." />
+          <button className="search-button">O</button>
+        </div>
+        <button className="cart">crt</button>
+      </div>
     </section>
   );
 };
