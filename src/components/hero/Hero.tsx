@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div className="button-section">
         <h3>Var vill du börja?</h3>
         <div>
-          <Button className="fav-button">Click me</Button>
+          <Button className="fav-button">Favoriter</Button>
           <Button className="collection-button">Kollektion</Button>
         </div>
         

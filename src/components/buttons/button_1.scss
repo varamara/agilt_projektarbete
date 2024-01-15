@@ -4,6 +4,14 @@
     width: 154px;
     height: 40px;
     border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        &:hover {
+            transform: scale(1.03); 
+        }
+    }
 }
 
 .collection-button {
@@ -13,4 +21,10 @@
     width: 154px;
     height: 40px;
     border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.03); 
+    }
 }
