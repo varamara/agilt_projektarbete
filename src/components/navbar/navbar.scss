@@ -42,24 +42,8 @@
   .search-cart {
     display: flex;
 
-    #search-magni {
-      margin-left: -30px;
-      padding-left: 27px;
-      width: 60px;
-
-      .search-icon {
-
-        &:hover {
-          transform: scale(1.1); 
-        }
-      }
-      
-      &:hover {
-        transform: none; 
-      }
-    }
-
     button {
+      
       border-radius: 50px;
       border: none;
       margin: 5px;
@@ -79,7 +63,21 @@
     }
 
     
-
+    #search-magni {
+      margin-left: -30px;
+      padding-left: 27px;
+      width: 60px;
+      
+      .search-icon {
+        &:hover {
+          transform: scale(1.1); 
+        }
+      }
+      
+      &:hover {
+        transform: none; 
+      }
+    }
 
     form {
       input {
@@ -89,6 +87,7 @@
         border-radius: 50px;
         height: 30px;
         transform: translateZ(10px);
+        transform: translateY(-1.5px);
       }
     }
   }
