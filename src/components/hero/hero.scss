@@ -1,14 +1,13 @@
 .hero {
     background-image: url(/src/assets/images/heroImage.png);
-    background-blend-mode: darken;
     height: 700px;
     display: flex;
+    vertical-align:top;
     align-items: center;
     justify-content: space-around;
     margin: -100px;
     background-size: cover;
     color: var(--color-2);
-    
     
     h1 {
     
@@ -16,7 +15,7 @@
         text-align: center;
         width: 50px;
         font-family: var(--font-2);
-        
+        opacity: .6;
     }
 
     h3 {

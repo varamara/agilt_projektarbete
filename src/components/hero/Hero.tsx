@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.scss";
 import Button from "../buttons/button_1";
+import BtnOutline from "../buttons/BtnOutline";
 
 const Hero: React.FC = () => {
   return (
@@ -9,8 +10,8 @@ const Hero: React.FC = () => {
       <div className="button-section">
         <h3>Var vill du börja?</h3>
         <div>
-          <Button className="fav-button">Favoriter</Button>
-          <Button className="collection-button">Kollektion</Button>
+          <Button>Favoriter</Button>
+          <BtnOutline className="btn_outline">Kollektion</BtnOutline>
         </div>
         
       </div>
