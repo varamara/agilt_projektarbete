@@ -2,10 +2,11 @@
     background-image: url(/src/assets/images/heroImage.png);
     background-blend-mode: darken;
     height: 700px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: -100px;
+    margin-top: -100px;
     background-size: cover;
     color: var(--color-2);
     
