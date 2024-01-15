@@ -8,13 +8,13 @@ const Footer = (props: Props) => {
   return (
     <section className="footer">
       <div className="icons">
-        <a href="">
+        <a href="https://www.google.com/intl/sv/gmail/about/">
           <img src="src\assets\at.png" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/">
           <img src="src\assets\fb.png" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/">
           <img src="src\assets\ig.png" />
         </a>
       </div>
