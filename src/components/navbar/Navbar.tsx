@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
         <a href="#">Storleksguide</a>
         <a href="#">Kontakt</a>
       </div>
-      
+      <div className="logo">Konini</div>
       <div className="search-cart">
         <form action="/sok" method="get">
           <input type="text" name="query" placeholder="Sök här..." />
