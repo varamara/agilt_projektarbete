@@ -26,12 +26,30 @@
   .search-cart {
     display: flex;
 
+    #search-magni {
+      margin-left: -30px;
+      padding-left: 27px;
+      width: 60px;
+
+      .search-icon {
+
+        &:hover {
+          transform: scale(1.1); 
+        }
+      }
+      
+      &:hover {
+        transform: none; 
+      }
+    }
+
     button {
       border-radius: 50px;
       border: none;
-      margin: 3px;
+      margin: 5px;
+      margin-top: 12px;
       height: 30px;
-      width: 30px;
+      width: 50px;
       background-color: var(--color-6); 
       color: var(--color-2);
       cursor: pointer;
@@ -45,6 +63,8 @@
       
     }
 
+    
+
 
     form {
 
@@ -54,6 +74,7 @@
         border: none;
         border-radius: 50px;
         height: 30px;
+        transform: translateZ(10px);
       }
     
     }

@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div className="search-cart">
         <form action="/sok" method="get">
           <input type="text" name="query" placeholder="Sök här..." />
-          <button type="submit">
+          <button id="search-magni" type="submit">
             <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
           </button>
         </form>
