@@ -9,12 +9,14 @@ interface Product {
   image: string;
 }
 
+// ProductService.js
+
 const ProductService = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
   const getAllProducts = async () => {
     try {
-      const response = await fetch("https://fakestoreapi.com/products");
+      const response = await fetch("/data.json");
       const data = await response.json();
 
       setProducts(data);

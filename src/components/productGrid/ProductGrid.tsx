@@ -11,7 +11,6 @@ const ProductGrid = () => {
 
   return (
     <div className="product-grid">
-      <h1>kort</h1>
       {productService.products.length === 0 ? (
         <p>Loading...</p>
       ) : (
