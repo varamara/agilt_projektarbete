@@ -22,6 +22,11 @@ const ProductService = () => {
       console.error("Could not fetch products", error);
     }
   };
+
+  return {
+    getAllProducts,
+    products,
+  };
 };
 
 export default ProductService;
