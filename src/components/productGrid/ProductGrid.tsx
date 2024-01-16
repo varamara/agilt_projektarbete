@@ -4,7 +4,7 @@ import ProductService from "../../services/ProductService";
 
 const ProductGrid = () => {
   const productService = ProductService();
-  
+
   useEffect(() => {
     productService.getAllProducts();
   }, [productService]);
@@ -17,10 +17,12 @@ const ProductGrid = () => {
         productService.products.map((product) => (
           <div key={product.id} className="product-card">
             <img src={product.image} alt={product.title} />
-            <h3>{product.title}</h3>
-            <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
-            <p>Category: {product.category}</p>
+            <div className="product-info">
+              <h3>{product.title}</h3>
+              <p>{product.description}</p>
+              <p>Price: ${product.price}</p>
+              <p>Category: {product.category}</p>
+            </div>
           </div>
         ))
       )}
