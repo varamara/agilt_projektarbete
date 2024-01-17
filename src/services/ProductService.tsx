@@ -9,8 +9,6 @@ interface Product {
   image: string;
 }
 
-// ProductService.js
-
 const ProductService = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
