@@ -9,6 +9,11 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <section className="footer">
+      <div className="sales-txt">
+        <p><img src="src\assets\Check.svg" alt="check-mark" />Fraktfritt över 500:-</p>
+        <p><img src="src\assets\Check.svg" alt="check-mark" />3-5 dagars leveranstid</p>
+        <p><img src="src\assets\Check.svg" alt="check-mark" />Betala med Klarna</p>
+      </div>
       <PrimaryCircle />
       <SecondaryCircle />
       <div className="icons">

@@ -22,6 +22,11 @@ const Brands: React.FC = () => {
         <div>
             <img src="src\assets\images\FrankDandy.png" alt="" />
         </div>
+
+
+        <div className='popular-txt'>
+            <span>Populärt just nu!</span>
+        </div>
     </div>
     );
 };
