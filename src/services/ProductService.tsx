@@ -1,3 +1,4 @@
+// ProductService.ts
 import React, { useState, useEffect } from "react";
 
 interface Product {
@@ -12,12 +13,14 @@ interface Product {
 const ProductService = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
-  const getAllProducts = async () => {
+  const getAllProducts = async (limit: number) => {
     try {
       const response = await fetch("/data.json");
       const data = await response.json();
 
-      setProducts(data);
+      // Limit the products to the specified number
+      const limitedProducts = data.slice(0, limit);
+      setProducts(limitedProducts);
     } catch (error) {
       console.error("Could not fetch products", error);
     }
